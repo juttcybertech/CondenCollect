@@ -1,7 +1,5 @@
 """
-Jutt Studio Attribution License (JSAL) 1.0
-
-Copyright (c) 2025 Jutt Studio
+Copyright (c) 2025 Jutt Cyber Tech
 """
 from flask import Flask, render_template, request, jsonify, send_from_directory
 from flask_cors import CORS
@@ -207,7 +205,7 @@ if __name__ == '__main__':
     subtitle = "Educational Purposes Only"
     title = "CondenCollect"
     description = "A sophisticated tool for security awareness."
-    developed_by = "Developed by Jutt Studio"
+    developed_by = "Developed by Jutt Cyber Tech"
     created_by = "Created by JS"
     contact_email = "Email: js434@proton.me"
 
@@ -240,4 +238,5 @@ if __name__ == '__main__':
     print(f"\n{Colors.GREEN}Selected Method:{Colors.ENDC} {selected_template.capitalize()}")
     print(f"{Colors.GREEN}Serving on:{Colors.ENDC} http://127.0.0.1:8000")
     
+
     app.run(host='0.0.0.0', port=8000, debug=False)
