@@ -1,0 +1,15 @@
+CondenCollect/
+│
+├── server.py          # The main Flask web server and application logic.
+├── requirements.txt   # Python dependencies.
+├── README.md          # This file.
+│
+├── templates/         # Contains the HTML files for the phishing pages.
+│   └── tiktok/
+│       └── tik.html
+│
+├── static/            # Contains static assets like JS, CSS, and images.
+│   ├── device_info.js # Gathers visitor information.
+│   └── tik.js         # Main JS for the TikTok template.
+│
+└── Data/              # Automatically created to store log files for each client.
